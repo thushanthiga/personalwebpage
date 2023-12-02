@@ -1,0 +1,72 @@
+
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_1.css">
+    <script src="ind.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+
+  <div class="container">
+
+    <div class="list">
+        
+      <div  style="background-size: cover;">Email     :    <a href="thushanthigasivalingam@gmail.com"> thushanthigasivalingam@gmail.com</a></div> <br>
+    
+      <div  style="background-size: cover;">phone     :        0772598746</div> <br>
+    
+      <div  style="background-size: cover;">Address   :       No 44/11, Manaltharai Lane, Kandharmadam,Jaffna.</div>
+  </div>
+
+  <form name="myForm" action="/action_page.php" onsubmit="return validate()" method="post" required>
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="FName" placeholder="Your first name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="LName" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="EMail" placeholder="Your email..">
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="phone">Phone number</label>
+        </div>
+        <div class="col-75">
+            <input type="tel" id="phone" name="phoneNo" placeholder="Your phone.. ">
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:250px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+</body>
+</html>
